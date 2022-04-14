@@ -4,14 +4,14 @@
       <div class="first-row">
         <Button
           color="yellow"
-          audioLink="http://www.kellyking.me/projects/simon/sounds/1.ogg"
+          audioLink="sounds/1.ogg"
           data-num="0"
           @checkSeq="checkSeq"
           ref="button1"
         />
         <Button
           color="blue"
-          audioLink="http://www.kellyking.me/projects/simon/sounds/2.ogg"
+          audioLink="sounds/2.ogg"
           data-num="1"
           @checkSeq="checkSeq"
           ref="button2"
@@ -20,14 +20,14 @@
       <div class="second-row">
         <Button
           color="red"
-          audioLink="http://www.kellyking.me/projects/simon/sounds/3.ogg"
+          audioLink="sounds/3.ogg"
           data-num="2"
           @checkSeq="checkSeq"
           ref="button3"
         />
         <Button
           color="green"
-          audioLink="http://www.kellyking.me/projects/simon/sounds/4.ogg"
+          audioLink="sounds/4.ogg"
           data-num="3"
           @checkSeq="checkSeq"
           ref="button4"
